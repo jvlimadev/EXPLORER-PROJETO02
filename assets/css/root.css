@@ -1,0 +1,16 @@
+:root {
+    --bg-body: #FFFFFF;
+    --bg-button: #69B99D;
+    
+    --fc-body: #000000;
+    --fc-button: #F9F9F9;
+    --fc-description: #7D7987;
+    --fc-link: #1F1534;
+    --fc-span: #89C5CC;
+
+
+    --ff-body: 'Mulish', sans-serif;
+    --ff-button: 'DM Sans', sans-serif;
+    --ff-small: 'Open Sans', sans-serif;
+
+}
