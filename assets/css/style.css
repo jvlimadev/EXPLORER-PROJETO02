@@ -13,22 +13,24 @@
     --ff-button: 'DM Sans', sans-serif;
     --ff-small: 'Open Sans', sans-serif;
 
+    box-sizing: border-box;
+    font-size: 62.5%; 
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-
-    font-size: 62.5%; 
 }
 
 .page {
+    height: 100vh;
     width: 108rem;
-    margin: 6.5rem  auto 3.0rem;
+    margin: 0 auto;
+    padding: 6.0rem 0 3.0rem;
 }
 
 .navegacao {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin-bottom: 6.0rem
 }
 
 .navegacao__items {
@@ -40,9 +42,9 @@
 .navegacao__link {
     color: var(--fc-link);
     font-family: var(--ff-body);
-    line-height: 2.3rem;
     font-size: 1.8rem;
     font-weight: 400;
+    line-height: 2.3rem;
     text-decoration: none;
     text-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -63,9 +65,9 @@
     color: var(--fc-body);
     font-family: var(--ff-body);
     font-size: 4.9rem;
-    line-height: 5.6rem;
     font-weight: 400;
-
+    line-height: 5.6rem;
+    margin-bottom: 4.0rem;
     width: 48.9rem;
 }
 
@@ -83,7 +85,7 @@
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 2.8rem;
-
+    margin-bottom: 4.0rem;
     width: 37.8rem;
 }
 
@@ -94,34 +96,47 @@
 }
 
 .main__button {
+    align-items: center;
     background-color: var(--bg-button);
+    border: none;
+    border-radius: 4px;
     color: var(--fc-button);
+    cursor: pointer;
+    display: flex;
     font-family: var(--ff-button);
     font-size: 1.6rem;
     font-weight: 500;
-    line-height: 2.1rem;
-    text-transform: uppercase;
-
-    display: flex;
-    align-items: center;
     gap: 1.0rem;
-    border: none;
-    border-radius: 4px;
+    line-height: 2.1rem;
     padding: 14px 32px;
-    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.img__decorativa {
+    bottom: 0px;
+    position: absolute;
+    right: 0;
 }
 
 .rodape__description {
     font-family: var(--ff-small);
     font-size: 1.4rem;
-    line-height: 2.8rem;
     font-weight: 400;
+    line-height: 2.8rem;
+    text-align: center;
 }
 
 .rodape__description-link {
     color: #000000;
     font-size: 1.4rem;
-    line-height: 2.8rem;
     font-weight: bold;
+    line-height: 2.8rem;
     text-decoration: none;
+}
+
+.box {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15.0rem;
 }
