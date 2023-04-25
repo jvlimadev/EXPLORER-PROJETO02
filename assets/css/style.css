@@ -1,0 +1,25 @@
+* {
+    --bg-body: #FFFFFF;
+    --bg-button: #69B99D;
+    
+    --fc-body: #000000;
+    --fc-description: #7D7987;
+    --fc-link: #1F1534;
+    --fc-span: #89C5CC;
+
+
+    --ff-body: 'Mulish', sans-serif;
+    --ff-button: 'DM Sans', sans-serif;
+    --ff-small: 'Open Sans', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+     font-size: 62.5%; 
+}
+
+.page {
+    width: 108rem;
+    margin: 0 auto;
+}
