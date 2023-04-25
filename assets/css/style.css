@@ -3,6 +3,7 @@
     --bg-button: #69B99D;
     
     --fc-body: #000000;
+    --fc-button: #F9F9F9;
     --fc-description: #7D7987;
     --fc-link: #1F1534;
     --fc-span: #89C5CC;
@@ -16,10 +17,72 @@
     padding: 0;
     box-sizing: border-box;
 
-     font-size: 62.5%; 
+    font-size: 62.5%; 
 }
 
 .page {
     width: 108rem;
     margin: 0 auto;
+}
+
+.navegacao__link {
+    color: var(--fc-link);
+    font-family: var(--ff-body);
+    line-height: 2.3rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navegacao__link:first-child {
+    font-weight: bold;
+}
+
+.main__title {
+    color: var(--fc-body);
+    font-family: var(--ff-body);
+    font-size: 4.9rem;
+    line-height: 5.6rem;
+    font-weight: 400;
+
+    width: 48.9rem;
+}
+
+.main__title span {
+    color: var(--fc-span);
+    font-family: var(--ff-body);
+    font-size: 4.9rem;
+    font-weight: 700;
+    line-height: 5.6rem;
+}
+
+.main__description {
+    color: var(--fc-description);
+    font-family: var(--ff-small);
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+
+    width: 37.8rem;
+}
+
+.main__description strong {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+}
+
+.main__button {
+    background-color: var(--bg-button);
+    color: var(--fc-button);
+    font-family: var(--ff-button);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.1rem;
+    text-transform: uppercase;
+
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    padding: 14px 32px;
 }
