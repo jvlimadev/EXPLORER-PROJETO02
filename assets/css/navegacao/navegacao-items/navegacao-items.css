@@ -1,0 +1,13 @@
+.navegacao__items {
+    display: inline;
+    list-style: none;
+    margin-right: 4.8rem;
+}
+
+.navegacao__items .select{
+    font-weight: bold;
+}
+
+.navegacao__items:last-child {
+    margin-right: 0; 
+}

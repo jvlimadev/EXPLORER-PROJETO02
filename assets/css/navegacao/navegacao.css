@@ -1,0 +1,6 @@
+.navegacao {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6.0rem
+}
