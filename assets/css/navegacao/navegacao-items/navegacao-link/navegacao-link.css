@@ -11,3 +11,9 @@
 .navegacao__link:hover {
     font-weight: bold;
 }
+
+@media screen and (min-width: 320px) {
+    .navegacao__link {
+        text-decoration: underline;
+    }
+}

@@ -4,3 +4,9 @@
     justify-content: space-between;
     margin-bottom: 6.0rem
 }
+
+@media screen and (min-width: 320px) {
+    .navegacao {
+        flex-direction: column;
+    }
+}

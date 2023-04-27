@@ -11,3 +11,10 @@
 .navegacao__items:last-child {
     margin-right: 0; 
 }
+
+@media screen and (min-width: 320px) {
+    .navegacao__items {
+        display: block;
+        margin-right: 0;
+    }
+}

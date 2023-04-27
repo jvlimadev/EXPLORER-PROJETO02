@@ -13,3 +13,9 @@
     font-weight: 700;
     line-height: 2.8rem;
 }
+
+@media screen and (min-width: 320px) {
+    .main__description {
+        width: 100%;
+    }
+}
