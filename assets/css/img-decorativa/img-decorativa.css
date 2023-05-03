@@ -4,7 +4,7 @@
     right: 0;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 768px) {
     .img__decorativa {
         display: none;
     }

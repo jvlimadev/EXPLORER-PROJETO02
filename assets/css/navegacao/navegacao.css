@@ -5,8 +5,9 @@
     margin-bottom: 6.0rem
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 768px) {
     .navegacao {
         flex-direction: column;
+        gap: 5px;
     }
 }

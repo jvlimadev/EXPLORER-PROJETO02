@@ -16,7 +16,7 @@
     line-height: 5.6rem;
 }
 
-@media screen and (min-width:320px) {
+@media screen and (max-width: 768px) {
     .main__title {
         width: 100%;
     }
